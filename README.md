@@ -11,18 +11,16 @@ This application is written as a native Node.js addon using C++ bindings to the 
 ## Features
 
 - Read all available data points from SMA inverters
-- Adjust inverter settings through JavaScript
-- Log problems and errors
+- Adjust inverter settings
 - Support for multiple connected inverters
-- Configurable polling intervals
-- Comprehensive error handling
+- Log problems and distrubances the inverter is having
 
 ## Usage
 
 1. convert serial port using RS485 to usb adapter ( guide below )
 2. install yasdi library ( instructions below )
 3. install required packages `npm install`
-4. build wrapper `npm run build`
+4. build sdk `npm run build`
 5. use `SMInverter` module in your code ( example in `examples/server.js` or Usage section below )
 
 ## Prerequisites
