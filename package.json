@@ -1,0 +1,29 @@
+{
+  "name": "sma-inverter-sdk",
+  "version": "1.0.0",
+  "description": "Node.js SDK for SMA Inverters using YASDI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "build": "node-gyp rebuild"
+  },
+  "keywords": [
+    "sma",
+    "inverter",
+    "solar",
+    "yasdi",
+    "photovoltaic"
+  ],
+  "author": "Haythem Chibani",
+  "license": "MIT",
+  "gypfile": true,
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
